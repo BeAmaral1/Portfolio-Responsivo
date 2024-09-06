@@ -54,9 +54,9 @@
 
             <div class="social-media">
                 <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.instagram.com/bernardo_amara_?igsh=MXcwa3VrcW1jdWVtMw=="><i class='bx bxl-instagram'></i></a>
                 <a href="#"><i class='bx bxl-linkedin' ></i></a>
-                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/BeAmaral1"><i class='bx bxl-github'></i></a>
             </div>
                 <div>
                     <a href="https://github.com/BeAmaral1" class="btn">Donwload CV</a>
@@ -64,7 +64,7 @@
         </div>
 
         <div class="home-img">
-            <img src="img/Profile.png" alt="Profile picture">
+            <img src="img/profile2.jpeg" alt="Profile picture">
         </div>
 
     </section>
@@ -212,30 +212,30 @@
     <!-- /portfolio section -->
 
     <!-- contact section -->
-     <section class="contact" id="contact">
+    <section class="contact" id="contact">
         <h2>Entre em <span>contato comigo!</span></h2>
-
-        <form action="">
+    
+        <form id="contact-form">
             <div class="input-box">
-                <input type="text" placeholder="Nome inteiro">
-                <input type="email" placeholder="E-mail">
+                <input type="text" name="name" placeholder="Nome inteiro" required>
+                <input type="email" name="email" placeholder="E-mail" required>
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Número de telefone">
-                <input type="text" placeholder="Assunto">
+                <input type="number" name="phone" placeholder="Número de telefone">
+                <input type="text" name="subject" placeholder="Assunto">
             </div>
-
-            <textarea cols="30" rows="8" placeholder="Mensagem"></textarea>
-
-            <a href="#" class="btn">Enviar mensagem</a>
-        </form>        
-     </section>
+    
+            <textarea name="message" cols="30" rows="8" placeholder="Mensagem" required></textarea>
+    
+            <button type="submit" class="btn">Enviar mensagem</button> <!-- Usando um button -->
+        </form>
+    </section>
     <!-- /contact section -->
 
      <!-- about section -->
      <section class="about" id="about">
         <div class="about-img">
-            <img src="img/Profile.png" alt="about">
+            <img src="img/profile2.jpeg" alt="about">
         </div>
 
         <div class="about-content">
@@ -255,5 +255,7 @@
         <p>Copyright &copy; 2023 by &lt;/Bernardo Amaral&gt;. All rights Reserved.</p>
      </footer>
 </body>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
     <script src="js/script.js"></script>
+    
 </html>

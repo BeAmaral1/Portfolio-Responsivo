@@ -1,4 +1,3 @@
-/* ===== Turns the menu hamburguer into a X ===== */
 
 const menuHamburguer = document.querySelector('.menu-hamburguer');
 menuHamburguer.addEventListener('click', () => {
