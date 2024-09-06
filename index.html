@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,18 @@
 
     <!-- custom css -->
      <link rel="stylesheet" href="css/style.css">
+
+    <!-- Script emailjs -->
+     <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "P5aYQVn5pqGUcq6Bz",
+        });
+    })();
+    </script>
 </head>
 <body>
     <header>
@@ -216,17 +228,17 @@
     
         <form id="contact-form">
             <div class="input-box">
-                <input type="text" name="name" placeholder="Nome inteiro" required>
-                <input type="email" name="email" placeholder="E-mail" required>
+                <input type="text" id="full_name" name="full_name" placeholder="Nome inteiro" required>
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
             </div>
             <div class="input-box">
-                <input type="number" name="phone" placeholder="Número de telefone">
-                <input type="text" name="subject" placeholder="Assunto">
+                <input type="number" id="phone" name="phone" placeholder="Número de telefone" required>
+                <input type="text" id="subject" name="subject" placeholder="Assunto" required>
             </div>
     
-            <textarea name="message" cols="30" rows="8" placeholder="Mensagem" required></textarea>
+            <textarea id="message" name="message" cols="30" rows="8" placeholder="Mensagem" required></textarea>
     
-            <button type="submit" class="btn">Enviar mensagem</button> <!-- Usando um button -->
+            <button type="submit" onclick="sendMail(Event)" class="btn">Enviar mensagem</button> <!-- Usando um button -->
         </form>
     </section>
     <!-- /contact section -->
@@ -254,7 +266,6 @@
         <p>Direitos autorais &copy; 2024 por &lt;/Bernardo Amaral&gt;. Todos os direitos reservados.</p>
      </footer>
 </body>
-    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
     <script src="js/script.js"></script>
     
 </html>
