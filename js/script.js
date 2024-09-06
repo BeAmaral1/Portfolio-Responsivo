@@ -13,7 +13,13 @@ function sendMail(){
     console.log(params);
 
     emailjs .send("service_00w4ili", "template_4bxgbeq",params)
-    console.log(document.getElementById('message').value);
+    .then(function(response) {
+        console.log("Email enviado com sucesso!", response.status, response.text);
+        alert("Mensagem enviada com sucesso!");
+        }, function(error) {
+        console.log("Erro no envio do email:", error);
+        alert("Houve um problema ao enviar a mensagem. Tente novamente."); // Alerta de erro
+    });
 }
 
 
