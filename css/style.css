@@ -279,8 +279,6 @@ form {
     margin: 0.6rem auto;
     text-align: center;
     margin-bottom: 2rem;
-
-    /* border:  solid 1px var(--bg-color-01);  TEST */
 }
 
 form .input-box {
