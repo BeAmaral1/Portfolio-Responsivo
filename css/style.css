@@ -391,6 +391,25 @@ footer {
 
 /* Extra Small (xs): smartphone (portrait) */
 @media (min-width: 0px) {
+
+    .portfolio-layer h4 {
+        font-size: 0.8rem;
+    }
+    
+    .portfolio-layer p {
+        font-size: 0.6rem;
+    }
+
+    .portfolio-layer a {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .portfolio-layer a i {
+        font-size: 1.0rem;
+        color: var(--bg-color-02);
+    }
+
     .menu-hamburguer {
         display: block;
     }
@@ -443,13 +462,23 @@ footer {
         width: 100%;
     }
 
+    .home-img,
+    .about-img {
+        width: 65%;
+        max-width: 65%;
+    }
+    
+    .services-box {
+        width: 70%;
+    }
+
 }
 /* /Extra Small (xs): smartphone (portrait) */
 
 
 /* Small (xs): smartphone (landscape) */
 @media (min-width: 576px) {
-    
+
     .home-img, .about-img {
         width: 65%;
         max-width: 65%;
@@ -466,6 +495,29 @@ footer {
 /*  Medium (md): Tablet */
 @media (min-width: 768px) {
     
+    .portfolio-layer h4 {
+            font-size: 1.8rem;
+        }
+    
+        .portfolio-layer p {
+            font-size: 1.0rem;
+        }
+    
+        .portfolio-layer a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 3rem;
+            height: 3rem;
+            background: var(--text-color);
+            border-radius: 50%;
+        }
+    
+        .portfolio-layer a i {
+            font-size: 1.2rem;
+            color: var(--bg-color-02);
+        }
+
     .menu-hamburguer {
         display: none;
     }
@@ -510,6 +562,29 @@ footer {
 
 /*  Large (lg): Notebook */
 @media (min-width: 992px) {
+
+    .portfolio-layer h4 {
+            font-size: 1.8rem;
+        }
+    
+        .portfolio-layer p {
+            font-size: 1.0rem;
+        }
+    
+        .portfolio-layer a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 3rem;
+            height: 3rem;
+            background: var(--text-color);
+            border-radius: 50%;
+        }
+    
+        .portfolio-layer a i {
+            font-size: 1.2rem;
+            color: var(--bg-color-02);
+        }
     
     .services-container {
         flex-direction: row;
@@ -522,6 +597,29 @@ footer {
 
 /*  Extra Large (x1): Desktop */
 @media (min-width: 1200px) {
+
+    .portfolio-layer h4 {
+            font-size: 1.8rem;
+        }
+    
+        .portfolio-layer p {
+            font-size: 1.0rem;
+        }
+    
+        .portfolio-layer a {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 3rem;
+            height: 3rem;
+            background: var(--text-color);
+            border-radius: 50%;
+        }
+    
+        .portfolio-layer a i {
+            font-size: 1.2rem;
+            color: var(--bg-color-02);
+        }
 
     .home-img, .about-img {
         max-width: 25%;
