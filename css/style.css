@@ -599,11 +599,11 @@ footer {
 @media (min-width: 1200px) {
 
     .portfolio-layer h4 {
-            font-size: 1.8rem;
+            font-size: 1.6rem;
         }
     
         .portfolio-layer p {
-            font-size: 1.0rem;
+            font-size: 0.8rem;
         }
     
         .portfolio-layer a {
