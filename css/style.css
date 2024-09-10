@@ -393,7 +393,7 @@ footer {
 @media (min-width: 0px) {
 
     .portfolio-layer h4 {
-        font-size: 0.8rem;
+        font-size: 1.0rem;
     }
     
     .portfolio-layer p {
@@ -479,6 +479,24 @@ footer {
 /* Small (xs): smartphone (landscape) */
 @media (min-width: 576px) {
 
+    .portfolio-layer h4 {
+            font-size: 1.6rem;
+        }
+    
+        .portfolio-layer p {
+            font-size: 0.9rem;
+        }
+    
+        .portfolio-layer a {
+            width: 3rem;
+            height: 3rem;
+        }
+    
+        .portfolio-layer a i {
+            font-size: 1.0rem;
+            color: var(--bg-color-02);
+        }
+
     .home-img, .about-img {
         width: 65%;
         max-width: 65%;
@@ -496,11 +514,11 @@ footer {
 @media (min-width: 768px) {
     
     .portfolio-layer h4 {
-            font-size: 1.8rem;
+            font-size: 1.5rem;
         }
     
         .portfolio-layer p {
-            font-size: 1.0rem;
+            font-size: 0.8rem;
         }
     
         .portfolio-layer a {
@@ -564,11 +582,11 @@ footer {
 @media (min-width: 992px) {
 
     .portfolio-layer h4 {
-            font-size: 1.8rem;
+            font-size: 1.5rem;
         }
     
         .portfolio-layer p {
-            font-size: 1.0rem;
+            font-size: 0.8rem;
         }
     
         .portfolio-layer a {
@@ -599,11 +617,11 @@ footer {
 @media (min-width: 1200px) {
 
     .portfolio-layer h4 {
-            font-size: 1.6rem;
+            font-size: 1.5rem;
         }
     
         .portfolio-layer p {
-            font-size: 0.8rem;
+            font-size: 1rem;
         }
     
         .portfolio-layer a {
@@ -617,7 +635,7 @@ footer {
         }
     
         .portfolio-layer a i {
-            font-size: 1.2rem;
+            font-size: 1.0rem;
             color: var(--bg-color-02);
         }
 
